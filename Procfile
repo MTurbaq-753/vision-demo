@@ -1,1 +1,1 @@
-worker: cd agent && python main.py start
+worker: python agent/main.py start

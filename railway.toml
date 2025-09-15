@@ -2,6 +2,6 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "cd agent && python main.py start"
+startCommand = "python agent/main.py start"
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 3
